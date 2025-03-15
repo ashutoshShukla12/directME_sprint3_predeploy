@@ -22,14 +22,15 @@ const LandingPage = () => {
             <section
                 className="bg-primary text-white py-5"
                 style={{
-                    backgroundImage: "url('/images/hero-bg.jpg')", // Replace with your image
+                    backgroundImage: "url('/https://drive.google.com/file/d/1NTa-_9pPv5rG9TWXIEB-gT6KVnRMTkEe/view?usp=sharing')", // Replace with your image
                     backgroundSize: "cover",
                     backgroundPosition: "center",
+                    height: "60vh",
                 }}
             >
                 <Container>
                     <Row className="align-items-center">
-                        <Col md={6}>
+                        <Col md={6} className="py-5">
                             <h1 className="display-4 fw-bold">Welcome to DirectMe</h1>
                             <p className="lead">
                                 Connecting communities to support homeless individuals in Brantford, Ontario.
@@ -58,9 +59,9 @@ const LandingPage = () => {
             </section>
 
             {/* Features Section */}
-            <section className="py-5">
+            <section className="py-5" style={{ height: "60vh" }}>
                 <Container>
-                    <h2 className="text-center mb-5">Why Choose DirectMe?</h2>
+                    <h2 className="text-center mb-5 mt-5">Why Choose DirectMe?</h2>
                     <Row>
                         <Col md={4}>
                             <Card className="h-100 shadow-sm">
@@ -100,17 +101,18 @@ const LandingPage = () => {
             </section>
 
             {/* Call to Action Section */}
-            <section className="bg-light py-5">
+            <section className="text-white py-5" style={{ backgroundColor: "#013A7c", height: "50vh" }}>
                 <Container>
-                    <Row className="text-center">
+                    <Row className="text-center mt-5">
                         <Col>
                             <h2>Ready to Make a Difference?</h2>
-                            <p className="lead">Join us today and start helping your community.</p>
+                            <p className="lead mb-5">Join us today and start helping your community.</p>
                             <Button
                                 variant="primary"
                                 size="lg"
                                 onClick={handleSignUp}
                                 aria-label="Get Started"
+                                className="rounded-pill mb-5"
                             >
                                 Get Started
                             </Button>
