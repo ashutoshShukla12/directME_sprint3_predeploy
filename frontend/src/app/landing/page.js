@@ -22,7 +22,7 @@ const LandingPage = () => {
             <section
                 className="bg-primary text-white py-5"
                 style={{
-                    backgroundImage: "url('/https://drive.google.com/file/d/1NTa-_9pPv5rG9TWXIEB-gT6KVnRMTkEe/view?usp=sharing')", // Replace with your image
+                    backgroundImage: "url('https://i.imgur.com/qEU9mqz.jpeg')", // Replace with your image
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     height: "60vh",
@@ -64,7 +64,7 @@ const LandingPage = () => {
                     <h2 className="text-center mb-5 mt-5">Why Choose DirectMe?</h2>
                     <Row>
                         <Col md={4}>
-                            <Card className="h-100 shadow-sm">
+                            <Card className="animations h-100 shadow-sm">
                                 <Card.Body>
                                     <Card.Title>Real-Time Updates</Card.Title>
                                     <Card.Text>
@@ -75,7 +75,7 @@ const LandingPage = () => {
                             </Card>
                         </Col>
                         <Col md={4}>
-                            <Card className="h-100 shadow-sm">
+                            <Card className="animations h-100 shadow-sm">
                                 <Card.Body>
                                     <Card.Title>Community-Driven</Card.Title>
                                     <Card.Text>
@@ -86,7 +86,7 @@ const LandingPage = () => {
                             </Card>
                         </Col>
                         <Col md={4}>
-                            <Card className="h-100 shadow-sm">
+                            <Card className="animations h-100 shadow-sm">
                                 <Card.Body>
                                     <Card.Title>Easy to Use</Card.Title>
                                     <Card.Text>
